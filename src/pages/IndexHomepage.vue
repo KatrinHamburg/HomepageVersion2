@@ -112,7 +112,7 @@
 
       <div class="col bg-secondary" ref="projects">
 
-        <div class="q-pa-lg q-pt-xl text-center text-block-bold text-block-headline text-primary ">Projekte</div>
+        <div class="bg-white q-pa-lg-lg q-pa-sm-sm q-pa-md-md q-pa-xs-md text-center text-block-bold text-block-headline text-primary ">Projekte</div>
 
         <q-carousel
           v-model="slide"
@@ -125,256 +125,107 @@
           padding
           infinite
           arrows
-          height="500px"
+          height="530px"
           class="bg-secondary text-primary flat"
         >
           <q-carousel-slide name="prices" >
-            <div class="column justify-center">
-              <div class="row">
-
-                <div class="col-12 col-md-6 q-pa-xs-xs q-pa-sm-sm q-pa-md-md q-pa-lg-lg q-pa-xl-xl">
-                  <div class="text-h6">
-                    Neuentwicklung von Services im Bereich Preise<br/>
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-md">
-                    Branche: Handel
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Methodiken: Kanban, Scrum, Microservices, Continuous Delivery
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Technologien: AWS, Spring Boot, Kotlin, React, Kafka, GitHub<br/>
-                  </div>
-
-                  <div class="q-pt-md">
-                    Entwicklung verschiedener Microservices, zum Beispiel zur Berechnung von rechtskonformen Streichpreisen.
-                  </div>
-
-                  <div class="q-pt-md">
-                    Im Rahmen einer auf Microservices basierten Architektur wurden Backend-Anwendungen und eine Frontend Applikation
-                    in der AWS-Cloud umgesetzt. Ich konzipierte, entwickelte und testete Backend- und Frontend-Funktionalitäten.
-                  </div>
-
-                </div>
-                <div class="gt-sm col-md-6 q-pa-lg text-center">
-                  <q-img src="~assets/prices.jpg" style="width: 430px" />
-                </div>
-              </div>
-            </div>
+            <SoftwareProject
+              title=" Neuentwicklung von Services im Bereich Preise"
+              sector="Handel"
+              methods="Kanban, Scrum, Microservices, Continuous Delivery"
+              technologies="AWS, Spring Boot, Kotlin, React, Kafka, GitHub "
+              short-description="Entwicklung verschiedener Microservices, zum Beispiel zur Berechnung von rechtskonformen Streichpreisen."
+              description="Im Rahmen einer auf Microservices basierten Architektur wurden Backend-Anwendungen und eine Frontend Applikation in der AWS-Cloud umgesetzt. Ich konzipierte, entwickelte und testete Backend- und Frontend-Funktionalitäten."
+              imageSrc="prices.jpg"
+              imageStyle="width: 430px"
+            />
           </q-carousel-slide>
 
           <q-carousel-slide name="tenant" >
-            <div class="column justify-center">
-              <div class="row">
-
-                <div class="col-12 col-md-6 q-pa-xs-xs q-pa-sm-sm q-pa-md-md q-pa-lg-lg q-pa-xl-xl">
-                  <div class="text-h6">
-                    Neuentwicklung eines „Mieter-Ökosystems“<br/>
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-md">
-                    Branche: Finanzen
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Methodiken: Scrum, DDD, Microservices
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Technologien: AWS, Spring Boot, Kotlin, Vue.js <br/>
-                  </div>
-
-                  <div class="q-pt-md">
-                    Entwicklung einer Plattform, die verschiedene Nutzungsaspekte kommerzieller Gebäude für den Nutzer bündelt.
-                  </div>
-
-                  <div class="q-pt-md">
-                    Im Rahmen einer auf Microservices basierten Architektur wurden eine App, ein Back-Office-System und
+            <SoftwareProject
+              title=" Neuentwicklung eines „Mieter-Ökosystems“"
+              sector="Finanzen"
+              methods="Scrum, DDD, Microservices"
+              technologies="AWS, Spring Boot, Kotlin, Vue.js "
+              short-description="Entwicklung einer Plattform, die verschiedene Nutzungsaspekte kommerzieller Gebäude für den Nutzer bündelt."
+              description="Im Rahmen einer auf Microservices basierten Architektur wurden eine App, ein Back-Office-System und
                     Backend-Anwendungen in der AWS-Cloud umgesetzt. Ich entwickelte vor allem Backend- Funktionalitäten,
-                    aber half auch im Frontend aus. Ich erstellte Unit- und Integrationstests. In dem Projekt galt
-                    ich als die Domänen-Expertin.
-                  </div>
-
-
-                </div>
-                <div class="gt-sm col-md-6 q-pa-lg text-center">
-                  <q-img src="~assets/parking.jpg" style="width: 300px" />
-                </div>
-              </div>
-            </div>
+                    aber half auch im Frontend aus. Ich erstellte Unit- und Integrationstests."
+              imageSrc="parking.jpg"
+              imageStyle="width: 230px"
+            />
           </q-carousel-slide>
-
 
           <q-carousel-slide name="valuation" >
-            <div class="column justify-center">
-              <div class="row">
-
-                <div class="col-12 col-md-6 q-pa-xs-xs q-pa-sm-sm q-pa-md-md q-pa-lg-lg q-pa-xl-xl">
-                  <div class="text-h6">
-                    Neuentwicklung einer Immobilienbewertung<br/>
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-md">
-                    Branche: Immobilien
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Methodiken: Scrum, DDD, Microservices, Continuous Delivery
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Technologien: Vue.js, Quasar, Java 11, Spring Boot <br/>
-                  </div>
-
-                  <div class="q-pt-md">
-                    Entwicklung einer Immobilienbewertungsstrecke, Backend-Anwendungen und einem Back-Office-System
-                    im Rahmen der Anwendungsdomäne Eigentümerkontakte
-                  </div>
-
-                  <div class="q-pt-md">
-                  In einem agilen crossfunktionalen Team wurden diverse Microservices entwickelt. Ich übernahm in dem
+            <SoftwareProject
+              title="Neuentwicklung einer Immobilienbewertung"
+              sector="Immobilien"
+              methods="Scrum, DDD, Microservices"
+              technologies="Vue.js, Quasar, Java 11, Spring Boot "
+              short-description="Entwicklung einer Immobilienbewertungsstrecke, Backend-Anwendungen und einem Back-Office-System
+                    im Rahmen der Anwendungsdomäne Eigentümerkontakte."
+              description="In einem agilen crossfunktionalen Team wurden diverse Microservices entwickelt. Ich übernahm in dem
                     Projekt sowohl Backend- als auch Frontend-Entwicklungen und erstellte Tests.
-                    Eine teameigene Continuous Delivery Pipeline wurde aufgebaut und betreut.
-                  </div>
-
-
-                </div>
-                <div class="gt-sm col-md-6 q-pa-lg text-center">
-                  <q-img src="~assets/valuation.jpg" style="width: 400px" />
-                </div>
-              </div>
-            </div>
+                    Eine teameigene Continuous Delivery Pipeline wurde aufgebaut und betreut."
+              imageSrc="valuation.jpg"
+              imageStyle="width: 360px"
+            />
           </q-carousel-slide>
+
           <q-carousel-slide name="realestate" >
-            <div class="column justify-center">
-              <div class="row">
-
-                <div class="col-12 col-md-6 q-pa-xs-xs q-pa-sm-sm q-pa-md-md q-pa-lg-lg q-pa-xl-xl ">
-                  <div class="text-h6">
-                    Neuentwicklung einer Startseite eines Immobilienportals als Microservice Architektur<br/>
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-md">
-                    Branche: Immobilien
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Methodiken: Scrum, Schichtenarchitektur, Microservices<br/>
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Technologien: Java 8, Thymeleaf, Spring Boot, Gradle, Jenkins, Apache Mesos, DC/OS <br/>
-                  </div>
-
-                  <div class="q-pt-md">
-                    Entwicklung von Microservices und einer Continuous Delivery Pipeline
-                  </div>
-
-                  <div class="q-pt-md">
-                  Altsysteme wurden durch eine Microservice basierte Architektur abgelöst. Ich entwickelte
-                    Backend- und Frontend- Funktionalitäten und half bei der Erstellung einer Continuous Delivery Pipeline.
-                  </div>
-
-                </div>
-                <div class="gt-sm col-md-6 q-pa-xl text-center">
-                  <q-img src="~assets/realestate.jpg" style="width: 400px" />
-                </div>
-              </div>
-            </div>
+            <SoftwareProject
+              title="Neuentwicklung einer Startseite eines Immobilienportals"
+              sector="Immobilien"
+              methods="Scrum, Schichtenarchitektur, Microservices"
+              technologies="Java 8, Thymeleaf, Spring Boot, Gradle, Jenkins, Apache Mesos, DC/OS "
+              short-description="Entwicklung von Microservices und einer Continuous Delivery Pipeline."
+              description="Altsysteme wurden durch eine Microservice basierte Architektur abgelöst. Ich entwickelte
+                    Backend- und Frontend- Funktionalitäten und half bei der Erstellung einer Continuous Delivery Pipeline."
+              imageSrc="realestate.jpg"
+              imageStyle="width: 320px"
+            />
           </q-carousel-slide>
+
           <q-carousel-slide name="warehouse" >
-            <div class="column justify-center">
-              <div class="row">
-
-                <div class="col-12 col-md-6 q-pa-xs-xs q-pa-sm-sm q-pa-md-md q-pa-lg-lg q-pa-xl-xl ">
-                  <div class="text-h6">
-                  Neuentwicklung eines internationalen Portals zur Abwicklung warenwirtschaftlicher Prozesse <br/>
-                    </div>
-
-                  <div class="text-subtitle2 q-pt-md">
-                    Branche: Handel
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Methodiken: Agile Softwareentwicklung, Schichtenarchitektur
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Technologien: Java, JUnit, Spring Boot, SAP Java Connector, JDBC, Maven <br/>
-                  </div>
-
-                   <div class="q-pt-md">
-                  Projektleitung, Konzeptionierung und Entwicklung einer Webanwendung zur Bereitstellung der
-                     Warenwirtschaftsprozesse in den Filialen mit direktem Zugriff auf das zentrale SAP-System. <br/>
-                  </div>
-
-                </div>
-                <div class="gt-sm col-md-6 q-pa-xl text-center">
-                  <q-img src="~assets/warehouse.jpg" style="width: 450px" />
-
-                </div>
-              </div>
-            </div>
+            <SoftwareProject
+              title="Neuentwicklung eines internationalen Portals zur Abwicklung warenwirtschaftlicher Prozesse"
+              sector="Handel"
+              methods="Agile Softwareentwicklung, Schichtenarchitektur"
+              technologies="Java, JUnit, Spring Boot, SAP Java Connector, JDBC, Maven "
+              short-description="Projektleitung, Konzeptionierung und Entwicklung einer Webanwendung zur Bereitstellung der
+                     Warenwirtschaftsprozesse in den Filialen mit direktem Zugriff auf das zentrale SAP-System."
+              description=""
+              imageSrc="warehouse.jpg"
+              imageStyle="width: 250px"
+            />
           </q-carousel-slide>
+
           <q-carousel-slide name="stocktaking" >
-            <div class="column justify-center">
-              <div class="row">
-
-                <div class="col-12 col-md-6 q-pa-xs-xs q-pa-sm-sm q-pa-md-md q-pa-lg-lg q-pa-xl-xl ">
-                  <div class="text-h6">
-                    Entwicklung eines webbasierten Inventursystems <br/>
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-md">
-                    Branche: Handel
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-sm">
-                    Technologien: Java, Spring, Sencha Touch 2, CoreMedia 5.2<br/>
-                  </div>
-
-                  <div class="q-pt-md">
-                    Konzeptionierung und Entwicklung eines webgestützten Systems zur Inventurdurchführung für eine Einzelhandelskette. Sowohl Mobile- als auch Desktop-Variante.<br/>
-                  </div>
-
-                </div>
-                <div class="gt-sm col-md-6 q-pa-xl text-center">
-                  <q-img src="~assets/stocktaking.jpg" style="width: 450px" />
-                </div>
-              </div>
-            </div>
+            <SoftwareProject
+              title="Entwicklung eines webbasierten Inventursystems"
+              sector="Handel"
+              methods="Agile Softwareentwicklung, Schichtenarchitektur"
+              technologies="Java, Spring, Sencha Touch 2, CoreMedia 5.2 "
+              short-description="Konzeptionierung und Entwicklung eines webgestützten Systems zur Inventurdurchführung für eine Einzelhandelskette. Sowohl Mobile- als auch Desktop-Variante."
+              description=""
+              imageSrc="stocktaking.jpg"
+              imageStyle="width: 250px"
+            />
           </q-carousel-slide>
+
           <q-carousel-slide name="planning" >
-            <div class="column justify-center">
-              <div class="row">
-
-                <div class="col-12 col-md-6 q-pa-xs-xs q-pa-sm-sm q-pa-md-md q-pa-lg-lg q-pa-xl-xl ">
-                  <div class="text-h6">
-                    Planungssystem <br/>
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-md">
-                    Branche: Handel
-                  </div>
-
-                  <div class="text-subtitle2 q-pt-xs">
-                    Technologien: C#, Microsoft Visual Studio, MS SQL Server 2005<br/>
-                  </div>
-
-                  <div class="q-pt-md">
-                    Neuentwicklung und Konzeptionierung eines Planungssystems für den Non-Food-Bereich eines Handelshauses.<br/>
-                  </div>
-
-                </div>
-                <div class="gt-sm col-md-6 q-pa-xl text-center">
-                  <q-img src="~assets/planing.jpg" style="width: 450px" />
-                </div>
-              </div>
-            </div>
+            <SoftwareProject
+              title="Planungssystem"
+              sector="Handel"
+              methods="Iterative Softwareentwicklung"
+              technologies="C#, Microsoft Visual Studio, MS SQL Server 2005 "
+              short-description="Neuentwicklung und Konzeptionierung eines Planungssystems für den Non-Food-Bereich eines Handelshauses."
+              description=""
+              imageSrc="planing.jpg"
+              imageStyle="width: 350px"
+            />
           </q-carousel-slide>
+
         </q-carousel>
 
       </div>
@@ -445,12 +296,16 @@
 </template>
 
 <script>
+
+
+import SoftwareProject from '../components/SoftwareProject';
+
 export default {
   name: 'PageIndex',
+  components: { SoftwareProject },
   data () {
     return {
-      lorem: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      slide: 'prices',
+      slide: 'stocktaking',
       name: null,
       email: null,
       subject: null,
@@ -488,12 +343,6 @@ export default {
   background-position-y: center;
 }
 
-.bg-office-image {
-  background-image: url(~assets/hamburg-office.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-}
 
 .text-block-headline {
   font-size: 40px;
