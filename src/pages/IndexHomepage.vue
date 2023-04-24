@@ -166,7 +166,7 @@
                     im Rahmen der Anwendungsdomäne Eigentümerkontakte."
               description="In einem agilen crossfunktionalen Team wurden diverse Microservices entwickelt. Ich übernahm in dem
                     Projekt sowohl Backend- als auch Frontend-Entwicklungen und erstellte Tests.
-                    Eine teameigene Continuous Delivery Pipeline wurde aufgebaut und betreut."
+                    Eine teameigene Continuous Delivery Pipeline wurde aufgebaut."
               imageSrc="valuation.jpg"
               imageStyle="width: 360px"
             />

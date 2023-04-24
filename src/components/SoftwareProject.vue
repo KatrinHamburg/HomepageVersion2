@@ -5,7 +5,7 @@
      {{ title }} <br />
     </div>
 
-    <div class="row items-center">
+    <div class="row items-center q-mb-xl">
 
       <div class="col-12 col-md-6 q-pa-xs-xs q-pa-sm-sm q-pa-md-md q-pa-lg-lg q-pa-xl-xl items-center">
         <div class="text-subtitle2 q-pt-md">
