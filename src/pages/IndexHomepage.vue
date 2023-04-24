@@ -305,7 +305,7 @@ export default {
   components: { SoftwareProject },
   data () {
     return {
-      slide: 'stocktaking',
+      slide: 'prices',
       name: null,
       email: null,
       subject: null,
