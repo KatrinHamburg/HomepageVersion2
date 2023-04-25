@@ -30,7 +30,8 @@
     </ul>
     <h2 id="m3">Verantwortlicher</h2>
     <p>Katrin Mischok<br>Stephanstraße 44<br>22047 Hamburg</p>
-    <p><strong>E-Mail-Adresse</strong>: <a class="text-white" href="mailto:info@katrinmischok.de">info@katrinmischok.de</a></p>
+    <p><strong>E-Mail-Adresse</strong>: <a class="text-white"
+                                           href="mailto:info@katrinmischok.de">info@katrinmischok.de</a></p>
     <h2 id="mOverview">Übersicht der Verarbeitungen</h2>
     <p>Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und
       verweist auf die betroffenen Personen.</p>
@@ -115,14 +116,15 @@
       z. B. vertraglicher Verpflichtung durch sogenannte Standardschutzklauseln der EU-Kommission, des Vorliegens von
       Zertifizierungen oder verbindlicher interner Datenschutzvorschriften, verarbeiten (Art. 44 bis 49 DSGVO,
       Informationsseite der EU-Kommission: <a class="text-white"
-        href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de"
-        target="_blank">https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de</a>
+                                              href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de"
+                                              target="_blank">https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de</a>
       ).</p>
     <h2 id="m134">Einsatz von Cookies</h2>
     <p>Cookies sind Textdateien, die Daten von besuchten Websites oder Domains enthalten und von einem Browser auf dem
       Computer des Benutzers gespeichert werden. Ein Cookie dient in erster Linie dazu, die Informationen über einen
       Benutzer während oder nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Zu den gespeicherten
-      Angaben können z. B. die Spracheinstellungen auf einer Webseite, der Loginstatus, ein Warenkorb oder die Stelle, an
+      Angaben können z. B. die Spracheinstellungen auf einer Webseite, der Loginstatus, ein Warenkorb oder die Stelle,
+      an
       der ein Video geschaut wurde, gehören. Zu dem Begriff der Cookies zählen wir ferner andere Technologien, die die
       gleichen Funktionen wie Cookies erfüllen (z. B., wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen
       gespeichert werden, auch als "Nutzer-IDs" bezeichnet)</p>
@@ -130,7 +132,8 @@
     <ul>
       <li><strong>Temporäre Cookies (auch: Session- oder Sitzungs-Cookies):</strong>
         Temporäre Cookies werden spätestens
-        gelöscht, nachdem ein Nutzer ein Online-Angebot verlassen und seinen Browser geschlossen hat.</li>
+        gelöscht, nachdem ein Nutzer ein Online-Angebot verlassen und seinen Browser geschlossen hat.
+      </li>
       <li><strong>Permanente Cookies:</strong>
         Permanente Cookies bleiben auch nach dem Schließen des Browsers
         gespeichert. So kann beispielsweise der Login-Status gespeichert oder bevorzugte Inhalte direkt angezeigt
@@ -138,7 +141,8 @@
         Reichweitenmessung oder zu Marketingzwecken verwendet werden, in einem solchen Cookie gespeichert werden.
       </li>
       <li><strong>First-Party-Cookies:</strong>
-        First-Party-Cookies werden von uns selbst gesetzt.</li>
+        First-Party-Cookies werden von uns selbst gesetzt.
+      </li>
       <li><strong>Third-Party-Cookies (auch: Drittanbieter-Cookies)</strong>: Drittanbieter-Cookies werden hauptsächlich
         von Werbetreibenden (sog. Dritten) verwendet, um Benutzerinformationen zu verarbeiten.
       </li>
@@ -228,7 +232,8 @@
       Server zu vermeiden (insbesondere im Fall von missbräuchlichen Angriffen, sogenannten DDoS-Attacken) und zum
       anderen, um die Auslastung der Server und ihre Stabilität sicherzustellen.</p>
     <ul class="m-elements">
-      <li><strong>Verarbeitete Datenarten:</strong> Inhaltsdaten (z. B. Texteingaben, Fotografien, Videos), Nutzungsdaten
+      <li><strong>Verarbeitete Datenarten:</strong> Inhaltsdaten (z. B. Texteingaben, Fotografien, Videos),
+        Nutzungsdaten
         (z. B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z. B.
         Geräte-Informationen, IP-Adressen).
       </li>
@@ -259,7 +264,8 @@
       Hilfe benötigen, dann können Sie sich an uns wenden.</p>
     <ul class="m-elements">
       <li><strong>Verarbeitete Datenarten:</strong> Bestandsdaten (z. B. Namen, Adressen), Kontaktdaten (z. B. E-Mail,
-        Telefonnummern), Inhaltsdaten (z. B. Texteingaben, Fotografien, Videos), Nutzungsdaten (z. B. besuchte Webseiten,
+        Telefonnummern), Inhaltsdaten (z. B. Texteingaben, Fotografien, Videos), Nutzungsdaten (z. B. besuchte
+        Webseiten,
         Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z. B. Geräte-Informationen, IP-Adressen).
       </li>
       <li><strong>Betroffene Personen:</strong> Nutzer (z. B. Webseitenbesucher, Nutzer von Onlinediensten).</li>
@@ -272,16 +278,20 @@
     <ul class="m-elements">
       <li><strong>LinkedIn:</strong> Soziales Netzwerk; Dienstanbieter: LinkedIn Ireland Unlimited Company, Wilton
         Place, Dublin 2, Irland; Website: <a class="text-white" href="https://www.linkedin.com"
-                                             target="_blank">https://www.linkedin.com</a>; Datenschutzerklärung: <a class="text-white"
+                                             target="_blank">https://www.linkedin.com</a>; Datenschutzerklärung: <a
+          class="text-white"
           href="https://www.linkedin.com/legal/privacy-policy" target="_blank">https://www.linkedin.com/legal/privacy-policy</a>;
         Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung von Daten in den USA): <a class="text-white"
-          href="https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&status=Active" target="_blank">https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&status=Active</a>;
+                                                                                                    href="https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&status=Active"
+                                                                                                    target="_blank">https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&status=Active</a>;
         Widerspruchsmöglichkeit (Opt-Out): <a class="text-white"
-          href="https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out" target="_blank">https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a>.
+                                              href="https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out"
+                                              target="_blank">https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a>.
       </li>
       <li><strong>Xing:</strong> Soziales Netzwerk; Dienstanbieter: XING AG, Dammtorstraße 29-32, 20354 Hamburg,
         Deutschland; Website: <a class="text-white" href="https://www.xing.de" target="_blank">https://www.xing.de</a>;
-        Datenschutzerklärung: <a class="text-white" href="https://privacy.xing.com/de/datenschutzerklaerung" target="_blank">https://privacy.xing.com/de/datenschutzerklaerung</a>.
+        Datenschutzerklärung: <a class="text-white" href="https://privacy.xing.com/de/datenschutzerklaerung"
+                                 target="_blank">https://privacy.xing.com/de/datenschutzerklaerung</a>.
       </li>
     </ul>
     <h2 id="m12">Löschung von Daten</h2>
@@ -395,5 +405,5 @@
 <script>
 export default {
   // name: 'PageName',
-}
+};
 </script>
